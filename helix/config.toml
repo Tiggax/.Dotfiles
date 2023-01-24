@@ -1,0 +1,27 @@
+# theme = "onedarker"
+# theme = "rose_pine_moon"
+# theme = "heisenberg"
+# theme = "hex_steel"
+# theme = "onedark"
+# theme = "my_bogster"
+theme = {{theme}}
+
+[editor]
+line-number = "relative"
+cursorline = true
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+

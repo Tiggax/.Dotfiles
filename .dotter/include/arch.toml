@@ -1,0 +1,4 @@
+[shell.variables]
+install = "sudo pacman -S"
+uninstall = "sudo pacman -R"
+update = "sudo pacman -Syu"

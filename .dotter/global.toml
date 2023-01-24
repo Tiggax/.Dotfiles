@@ -1,0 +1,11 @@
+[helix.files]
+"helix/config.toml" = "~/.config/helix/config.toml"
+
+[helix.variables]
+# theme = "onedarker"
+# theme = "rose_pine_moon"
+# theme = "heisenberg"
+# theme = "hex_steel"
+# theme = "onedark"
+# theme = "my_bogster"
+theme = "my_bogster"
